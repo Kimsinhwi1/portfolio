@@ -13,4 +13,9 @@ export interface Project {
   challenges: string;
   startDate: string;
   status: string;
+  // 상세 페이지용 추가 필드
+  features?: string[];
+  architecture?: string;
+  results?: string[];
+  challengeDetails?: { problem: string; solution: string }[];
 }

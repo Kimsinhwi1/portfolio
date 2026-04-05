@@ -23,7 +23,8 @@
       "Bash(gh auth:*)",
       "Bash(gh repo:*)",
       "WebFetch(domain:aipaylab.com)",
-      "WebFetch(domain:blog.naver.com)"
+      "WebFetch(domain:blog.naver.com)",
+      "Bash(git push:*)"
     ]
   }
 }
