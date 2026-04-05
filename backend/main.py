@@ -10,7 +10,7 @@ app = FastAPI(title="Portfolio API")
 # CORS 설정 - 프론트엔드에서 이 API를 호출할 수 있도록 허용
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # 배포 시 Vercel 도메인 추가
+    allow_origins=["*"],  # 모든 도메인 허용 (배포 후 Vercel 도메인으로 제한 가능)
     allow_methods=["GET", "POST"],
     allow_headers=["*"],
 )
